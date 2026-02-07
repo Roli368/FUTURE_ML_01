@@ -1,12 +1,12 @@
 # Sales Forecasting System
 
-## 📌 Overview
+##  Overview
 This project implements a **time-series sales forecasting system** to predict future revenue using historical retail data from the **Sample – Superstore** dataset.
 
 The system is designed to help businesses **anticipate demand, plan inventory, and support data-driven decision-making** by capturing long-term trends and seasonal patterns using a **SARIMA (Seasonal ARIMA)** model. Forecasts are presented with **95% confidence intervals** to quantify uncertainty and risk
 
 
-## 🎯 Objectives 
+##  Objectives 
 
 - Clean and preprocess raw transactional data into a monthly time-series format  
 - Analyze historical sales trends and seasonality  
@@ -15,7 +15,7 @@ The system is designed to help businesses **anticipate demand, plan inventory, a
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 1. Aggregate transaction-level data into **monthly sales**
 2. Perform **trend and seasonality decomposition**
@@ -25,7 +25,7 @@ The system is designed to help businesses **anticipate demand, plan inventory, a
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 Sales-Forecasting-System/
