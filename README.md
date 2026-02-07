@@ -43,5 +43,5 @@ Sales-Forecasting-System/
 └── README.md
 
 
-![alt text](image-2.png)
-![alt text](image.png)
+![Monthly sale forecost](images/image-2.png)
+![Sale forecast for next 12 months](images/image.png)
