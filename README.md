@@ -3,9 +3,8 @@
 ## 📌 Overview
 This project implements a **time-series sales forecasting system** to predict future revenue using historical retail data from the **Sample – Superstore** dataset.
 
-The system is designed to help businesses **anticipate demand, plan inventory, and support data-driven decision-making** by capturing long-term trends and seasonal patterns using a **SARIMA (Seasonal ARIMA)** model. Forecasts are presented with **95% confidence intervals** to quantify uncertainty and risk.
+The system is designed to help businesses **anticipate demand, plan inventory, and support data-driven decision-making** by capturing long-term trends and seasonal patterns using a **SARIMA (Seasonal ARIMA)** model. Forecasts are presented with **95% confidence intervals** to quantify uncertainty and risk
 
----
 
 ## 🎯 Objectives 
 
@@ -42,3 +41,7 @@ Sales-Forecasting-System/
 │   └── data_loader.py                # Data preprocessing pipeline
 ├── requirements.txt
 └── README.md
+
+
+![alt text](image-2.png)
+![alt text](image.png)
