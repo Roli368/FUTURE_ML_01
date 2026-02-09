@@ -42,6 +42,5 @@ Sales-Forecasting-System/
 ├── requirements.txt
 └── README.md
 
-
-![Monthly sale forecost](images/image-2.png)
-![Sale forecast for next 12 months](images/image.png)
+![alt text](images/image-2.png)
+![alt text](images/image.png)

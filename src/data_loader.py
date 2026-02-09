@@ -2,15 +2,6 @@ import pandas as pd
 import os
 
 def load_data(filepath):
-    """
-    Loads the Superstore Sales dataset from a CSV file.
-    
-    Args:
-        filepath (str): Path to the CSV file.
-        
-    Returns:
-        pd.DataFrame: Loaded dataframe.
-    """
     if not os.path.exists(filepath):
         raise FileNotFoundError(f"File not found at {filepath}")
     
@@ -22,7 +13,7 @@ def load_data(filepath):
         print("UTF-8 decoding failed, trying 'latin1'...")
         df = pd.read_csv(filepath, encoding='latin1')
         
-    print(f"Data loaded successfully from {filepath}")
+   
     print(f"Shape: {df.shape}")
     return df
 
@@ -45,7 +36,7 @@ def clean_data(df):
     if 'order_date' in df.columns:
         df = df.sort_values('order_date')
         
-    print("Data cleaned and date columns converted.")
+   
     return df
 
 def feature_engineering(df):
@@ -73,11 +64,11 @@ def aggregate_monthly(df):
     return monthly_sales
 
 if __name__ == "__main__":
-    # Correct path relative to where script is run or absolute
+   
     possible_paths = [
         "../data/Sample - Superstore.csv",
         "data/Sample - Superstore.csv",
-        r"c:/Users/rolir/Desktop/FUTURE-ML-01/data/Sample - Superstore.csv"
+       
     ]
     
     data_path = None
@@ -92,7 +83,7 @@ if __name__ == "__main__":
         df = feature_engineering(df)
         
         # Save processed transactional data
-        # We save to: c:/Users/rolir/Desktop/FUTURE-ML-01/data/processed_superstore.csv
+       
         
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # FUTURE-ML-01 root if in src/
         data_dir = os.path.join(base_dir, "data")
