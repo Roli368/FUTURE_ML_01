@@ -42,5 +42,5 @@ Sales-Forecasting-System/
 ├── requirements.txt
 └── README.md
 
-![alt text](images/image-2.png)
-![alt text](images/image.png)
+![alt text](./images/image-2.png)
+![alt text](./images/image.png)
